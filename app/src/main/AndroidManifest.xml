@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".sem4notes"
+            android:exported="false" />
+        <activity
+            android:name=".sem3notes"
+            android:exported="false" />
+        <activity
+            android:name=".sem2notes"
+            android:exported="false" />
+        <activity
+            android:name=".sem1notes"
+            android:exported="false" />
+        <activity
+            android:name=".sem6slipsolve"
+            android:exported="false" />
+        <activity
+            android:name=".sem5slipsolve"
+            android:exported="false" />
+        <activity
+            android:name=".sem4slipsolve"
+            android:exported="false" />
+        <activity
+            android:name=".sem3slipsolve"
+            android:exported="false" />
+        <activity
+            android:name=".sem2slipsolve"
+            android:exported="false" />
+        <activity
+            android:name=".sem1slipsolve"
+            android:exported="false" />
+        <activity
+            android:name=".fysolveslips"
+            android:exported="false" />
+        <activity
+            android:name=".fysem1slipscode"
+            android:exported="false" />
+        <activity
+            android:name=".sem1slipssolutionofpracticalslips"
+            android:exported="false" />
+        <activity
+            android:name=".tyslipsolution"
+            android:exported="false" />
+        <activity
+            android:name=".syslipsolution"
+            android:exported="false" />
+        <activity
+            android:name=".fysem1slipsolution"
+            android:exported="false" />
+        <activity
+            android:name=".PDFVIEW"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TYpracques"
+            android:exported="false" />
+        <activity
+            android:name=".SYpracques"
+            android:exported="false" />
+        <activity
+            android:name=".FYPracticalquestion"
+            android:exported="false" />
+        <activity
+            android:name=".TYquestion"
+            android:exported="false" />
+        <activity
+            android:name=".SYquestion"
+            android:exported="false" />
+        <activity
+            android:name=".Exastudies"
+            android:exported="false" />
+        <activity
+            android:name=".SlipsSolution"
+            android:exported="false" />
+        <activity
+            android:name=".PracticalQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".Study"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionPaper"
+            android:exported="false" />
+        <activity
+            android:name=".TYsemester"
+            android:exported="false" />
+        <activity
+            android:name=".SYsemester"
+            android:exported="false" />
+        <activity
+            android:name=".FYsemester"
+            android:exported="false" />
+        <activity
+            android:name=".notes"
+            android:exported="false" />
+        <activity
+            android:name=".MainHome"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

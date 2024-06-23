@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "182806943938",
+    "firebase_url": "https://approject-fa20b-default-rtdb.firebaseio.com",
+    "project_id": "approject-fa20b",
+    "storage_bucket": "approject-fa20b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182806943938:android:46afa3fd2fe74d1ede035b",
+        "android_client_info": {
+          "package_name": "com.example.approject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0fgmCFOj-QScbksNBjKh37nPh6BJ9jg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
